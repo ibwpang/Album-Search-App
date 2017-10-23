@@ -19,4 +19,4 @@ the "query" in this URL is the content that the user typed in the textbox, for e
 https://itunes.apple.com/search?term=Bob%20Dylan&entity=album
 
 ``` 
-React will use Ajax to send a request to iTunes, and receive a response which contains all of the data about the albums of this artist. The fetched data is stored in React and then displayed in the webpage. 
+I used Ajax in React to send a request to iTunes, and receive a response which contains all of the data about the albums of this artist. The fetched data is stored in React and then displayed in the webpage. 
