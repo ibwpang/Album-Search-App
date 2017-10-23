@@ -9,7 +9,7 @@ This album search app is built for users to search the albums of their favorite 
 ![UI](https://github.com/ibwpang/AlbumSearchApp/blob/master/img/3.png)
 
 # How I build this app
-This app is built using React and Bootstrap. When users type the name of the artist in the textbox and click search button, React will send a GET request to iTunes with a query: 
+This app is built using React, Bootstrap. Thanks to the iTunes API, I can get the data of albums easily. When users type the name of the artist in the textbox and click search button, React will send a GET request to iTunes with a query: 
 ```
 https://itunes.apple.com/search?term="+query+"&entity=album
 
@@ -19,7 +19,7 @@ the "query" in this URL is the content that the user typed in the textbox, for e
 https://itunes.apple.com/search?term=Bob%20Dylan&entity=album
 
 ``` 
-I used Ajax to send a request to iTunes, and receive a response which contains all of the data about the albums of this artist. The fetched data is stored in React and then displayed in the webpage. 
+I used Ajax to send a request to iTunes, and receive a response from iTunes which contains all of the data about the albums of this artist. The fetched data is stored and then displayed in the webpage. 
 
 The outermost component of this React app is call App, and there are two inner components called SearchBox and Results nested in it. The fetched data will be stored as an array in App component. 
 
