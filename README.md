@@ -21,7 +21,7 @@ https://itunes.apple.com/search?term=Bob%20Dylan&entity=album
 ``` 
 I used Ajax to send a request to iTunes, and receive a response which contains all of the data about the albums of this artist. The fetched data is stored in React and then displayed in the webpage. 
 
-The outermost component of React is call App, and there are two inner components called SearchBox and Results nested in it. The fetched data will be stored as an array in App component. 
+The outermost component of this React app is call App, and there are two inner components called SearchBox and Results nested in it. The fetched data will be stored as an array in App component. 
 
 ```
 var App = React.createClass({
