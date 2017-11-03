@@ -21,7 +21,7 @@ https://itunes.apple.com/search?term=Bob%20Dylan&entity=album
 ``` 
 I used Ajax to send a request to iTunes, and receive a response from iTunes which contains all of the data about the albums of this artist. The fetched data is stored and then displayed in the webpage. 
 
-What you fetched from iTunes:
+What you fetched from iTunes in JSON format:
 ```
 {
  "resultCount":50,
